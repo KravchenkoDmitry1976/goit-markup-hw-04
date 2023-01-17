@@ -38,6 +38,13 @@ body{
 font-family: 'Roboto', sans-serif;
 color:var(--text);
 }
+*  
+{
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        }
+
 .visually-hidden{
     position: absolute;
     white-space: nowrap;
@@ -317,7 +324,7 @@ background-color: var(--primary-brand);
     
 }
 .customers-item{
-    width: calc((100%-120px) / 6);
+    width: 168px;
     height: 88px;
 }
 .customers-title{
@@ -428,7 +435,7 @@ background-color: var(--text);
     letter-spacing: 0.04em;
     color: var(--primary-brand);
     background-color: var(--light);
-    border: none;
+    border: 1px solid var(--accent);
     border-radius: 4px;
     padding: 12px 24px;
 }
